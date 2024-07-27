@@ -1,0 +1,9 @@
+[package]
+name = "oxls"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.86"
+clap = { version = "4.5.11", features = ["cargo"] }
+ox_system = { path = "../ox_system" }
